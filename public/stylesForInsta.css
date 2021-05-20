@@ -1,0 +1,115 @@
+#view-button
+{
+    display:none;
+    text-decoration: none;
+    height: 50px;
+    color: #fff;
+    white-space: nowrap;
+}
+#button-dp
+{
+
+    background-color: rgb(255, 0, 34);
+    height: 40px;
+    font-family:  Luminari;
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-left:4%;
+    margin-right: 4%;
+    font-weight: 500;
+    color: #fff;
+    padding: 3px;
+    display: none;
+}
+.top-of-page
+{
+    height:60px;
+    background-image: linear-gradient(rgb(196, 17, 202),rgb(204,24,94), rgb(225, 228, 91));
+    color: white;
+    text-align: center;
+    margin: 0;
+    
+    display: block;
+}
+.top-of-page> h1
+{
+    
+    font-family:  Luminari;
+    letter-spacing: 5px;
+    padding: 10px;
+}
+*{
+    margin:0;
+    padding: 0;
+}
+.search-box
+{
+    text-align: center;
+    margin: auto;
+    height: 200px;
+    display: block;
+    
+}
+.search-box>h2
+{
+    font-family:  Luminari;
+    letter-spacing: 3px;
+    padding-top:70px;
+    padding-bottom:20px;
+}
+#search
+{ 
+    width:70%;
+    height: 50px;
+    border: 3px solid rgb(245, 8, 28);
+    font-size: 30px;
+    text-align: center;
+    font-family:  Luminari;
+    font-weight: 700;
+}
+#send
+{
+    text-align:center;
+    margin:auto;
+    display:block;
+    margin-top:40px;
+    margin-bottom: 60px;
+    font-family:  Luminari;
+    letter-spacing: 3px;
+    font-weight: 400;
+    width:15%;
+    height: 50px;
+    background-image: linear-gradient(rgb(196, 17, 202),rgb(204,24,94), rgb(225, 228, 91));
+    color: white;
+    font-size: 30px;
+}
+.link
+{
+    width: 35%;
+    text-align: center;
+    margin:60px auto;
+    height:fit-content;
+    display: block;
+    border: 3px solid yellow;
+}
+table {
+    font-family:  Luminari;
+    font-size: 18px;
+    font-weight: 500;
+    border-collapse: collapse;
+    margin: auto;
+    margin-bottom: 60px;
+  }
+  
+  td, th {
+    border: 3px solid #fff;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: rgb(228, 13, 138,0.5);
+  }
+  tr:nth-child(odd) {
+    background-color: rgb(228, 215, 38,0.3);
+  }

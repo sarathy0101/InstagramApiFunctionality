@@ -1,0 +1,33 @@
+{
+  "name": "poc-express-api-heroku",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/server.js"
+  },
+  "proxy": "http://localhost:3000",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abusedmedia/poc-express-api-heroku.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abusedmedia/poc-express-api-heroku/issues"
+  },
+  "homepage": "https://github.com/abusedmedia/poc-express-api-heroku#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.16.3",
+    "moment": "^2.29.1",
+    "socket.io": "^4.0.1"
+  },
+  "devDependencies": {
+    "instagram-web-api": "^2.2.2",
+    "mysql": "^2.18.1",
+    "qs": "^6.10.1"
+  }
+}
